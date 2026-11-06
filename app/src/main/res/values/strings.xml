@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Jio Pay</string>
+    <string name="tagline_commission">Buy &amp; Sell Money • +8% Profit on Every Buy</string>
+    <string name="auth_tab_otp">OTP Login</string>
+    <string name="auth_tab_password">Password</string>
+    <string name="auth_tab_register">Register</string>
+    <string name="label_mobile_number">10-Digit Mobile Number</string>
+    <string name="label_mobile_or_email">Mobile Number or Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="label_upi_id">Your UPI ID (e.g. name@upi)</string>
+    <string name="action_send_otp">Send 6-Digit OTP</string>
+    <string name="action_verify_otp">Verify OTP &amp; Login</string>
+    <string name="action_login_password">Login with Password</string>
+    <string name="action_create_account">Create Jio Pay Account</string>
+    <string name="nav_buy">Buy</string>
+    <string name="nav_sell">Sell &amp; Verify</string>
+    <string name="nav_wallet">Wallet</string>
+    <string name="nav_logs">Logs</string>
+    <string name="nav_admin">Admin</string>
+    <string name="action_buy_now">Buy Now</string>
+    <string name="action_add_money">Add Money</string>
+    <string name="action_withdraw">Withdraw</string>
+    <string name="action_add_account">Add UPI / Bank</string>
+    <string name="action_copy_upi">Copy UPI ID</string>
+    <string name="action_confirm_paid">I Have Paid — Submit for Verification</string>
+    <string name="action_verify_transfer">Verify &amp; Transfer</string>
+    <string name="action_reject_fail">Mark Failed</string>
+    <string name="action_publish_sell">Publish Sell Order</string>
+    <string name="action_sign_out">Sign Out</string>
+</resources>

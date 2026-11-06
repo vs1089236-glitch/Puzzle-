@@ -1,0 +1,6 @@
+{
+  "name": "Jio Pay",
+  "description": "Peer-to-peer UPI money buy and sell marketplace with 8% commission rewards, instant wallet transfers, and admin transaction tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
