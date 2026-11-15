@@ -124,14 +124,7 @@ jobs:
           gh release create "$RELEASE_TAG" "$ASSET_PATH" \
             --target "${{ github.sha }}" \
             --title "$RELEASE_TITLE" \
-            --notes "### Jio Pay - Debug APK Build
-- **Type**: Automatically generated debug APK
-- **Builder**: GitHub Actions
-- **Run Number**: ${{ github.run_number }}
-- **Run Attempt**: ${{ github.run_attempt }}
-- **Source Commit**: ${{ github.sha }}
-- **Usage**: Intended for testing and verification only
-- **Notice**: Not a Play Store production release; signed with temporary debug keystore." \
+            --notes "Debug APK automatically built by GitHub Actions (Run #${{ github.run_number }}, Attempt #${{ github.run_attempt }}). Built from commit ${{ github.sha }}." \
             --latest
 
       - name: Report APK download result
